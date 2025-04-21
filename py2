@@ -1,0 +1,347 @@
+04.Installation of Modules Using pip | Python Tutorial For Beginners in Marathi #python
+
+Python Module: कोडचा समूह जो विशिष्ट कार्ये करण्यासाठी एकत्र ठेवला जातो.
+  -  Built-in Modules: Python सोबत येतात, उदा. math (गणितीय कार्ये), os (ऑपरेटिंग सिस्टम संबंधित कार्ये).
+  -  Non-built-in Modules: डेव्हलपर्सनी तयार केलेले किंवा थर्ड-पार्टी लायब्ररींमधून इंस्टॉल केलेले, उदा. requests (वेब रिक्वेस्ट्ससाठी), pandas (डेटा एनालिसिससाठी).
+
+------------------------------------------------
+print("            ")
+-------------------------------------------------
+var=int(input("give value"))
+print(var)                             ======
+
+give value7
+7
+-------------------------------------------------
+var=int(input("give value\n"))                                ##input=give prompt & \n = new line var ja
+print(var)                              =======
+give value
+5
+5
+---------------------------------------------------
+#comments single line
+'''
+comments
+multi
+lines
+'''
+-------------------------------------------------
+\n    = new line
+print("ram is good \n bad")           =====
+ram is good 
+ bad
+
+-------------------------------------------------
+\n = never printed so use \\n 
+print("ram is good \name bad")        =======
+ram is good 
+ame bad
+
+print("ram is good \\name bad")         ===
+ram is good \name bad
+
+-------------------------------------------------
+\t  == space
+print("ram is good \t bad")            =====
+ram is good      bad
+-------------------------------------------------
+\t = never printed so use \\t 
+print("ram is good \terror bad")          =====
+ram is good     error bad
+
+
+print("ram is good \terror bad")           ====
+ram is good \terror bad
+-------------------------------------------------
+\r  === 
+print("राम चांगला आहे \r वाईट")      =======
+वाईट
+
+Code: print("पहिला भाग \r दुसरा भाग")
+Output: दुसरा भाग
+मराठीत उपयोग: एकाच ओळीवर माहिती अपडेट करण्यासाठी किंवा काही भाग बदलण्यासाठी वापरतात.
+-------------------------------------------------
+\b)
+
+Code: print("अक्षर \bपुस")
+Output: अक्षपुस
+मराठीत उपयोग: कर्सरच्या डावीकडील एक अक्षर मिटवण्यासाठी वापरतात.
+---------------------------------------------------
+var1="ram is good bad\n"
+print(3*var1)                      =========
+ram is good bad
+ram is good bad
+ram is good bad
+---------------------------------------------------
+Typecasting in Python)
+पायथनमध्ये टाइपकास्टिंग म्हणजे एका डेटा प्रकारातील व्हेरिएबलला दुसऱ्या डेटा प्रकारात रूपांतरित करणे. 
+
+list()=========
+
+कोड: my_tuple = (1, 2, 3); print(list(my_tuple))
+आउटपुट: [1, 2, 3]
+मराठीत उपयोग: टपल किंवा स्ट्रिंगला लिस्टमध्ये बदलते. 
+---------------------------------------------------
+vid10 : String Slicing And Other Functions In Python | Python Tutorial For Beginners in Marathi #python #10
+-[0:28]   = [:]    =[:28]         All 3 are same
+- [[start letter used:   stop letter excluded   :    step]]
+
+
+var1="i am marathi & proud maratha"       
+print(var1)
+print(var1[0])
+print(len(var1))                   # error=   length   [ ]              --len has round bracket
+print(var1[0:28])                  # indexing word must have [[start:stop:step]] square bracket # indexing -1 / -2 works only with whole data means [::-2]
+print(var1[::-1])
+print(var1[:])
+print(var1[:28])
+print(var1[2:4:1])
+print(var1[0:4:-1])      ====================
+
+i am marathi & proud maratha
+i
+28
+i am marathi & proud maratha
+ahtaram duorp & ihtaram ma i
+i am marathi & proud maratha
+i am marathi & proud maratha
+am
+
+
+---------------------------------------------------
+## uppercse all
+var1 = "i am marathi & proud maratha"
+capitalized_var1 = var1.upper()
+print(capitalized_var1)
+
+##uppercase 1st letter
+var1="i am marathi & proud maratha"
+print(var1.capitalize()) ============
+I am marathi & proud maratha
+-----------------------------------------
+# lowercase  == lower / casefold    both works same but casefold works strictly
+var1 = "I AM MARATHI & PROUD MARATHA"
+lowercase_var1 = var1.lower()                     /    lowercase_var1 = var1.casefold()                      
+print(lowercase_var1)
+-----------------------------------------
+
+# capitalize() - Converts the first character to upper case
+text_capitalize = "hello world"
+print(text_capitalize.capitalize())
+# Output: Hello world
+# उपयोग: स्ट्रिंगमधील पहिल्या शब्दाचे पहिले अक्षर मोठे करण्यासाठी.
+-----------------------------------------
+# casefold() - Converts string into lower case (more aggressive than lower())
+text_casefold = "ß is sharp s"
+print(text_casefold.casefold())
+# Output: ss is sharp s
+# उपयोग: अधिक कठोर लोअरकेस रूपांतरणासाठी, विशेषतः केस-इन्सेंसिटिव्ह तुलनांसाठी.
+-----------------------------------------
+# center() - Returns a centered string
+text_center = "hello"
+print(text_center.center(20))
+# Output:         hello
+# उपयोग: आउटपुट फॉरमॅटिंगसाठी स्ट्रिंगला दिलेल्या रुंदीमध्ये मध्यभागी आणण्यासाठी.
+-----------------------------------------
+# count() - Returns the number of times a specified value occurs in a string
+text_count = "hello world hello"
+print(text_count.count("hello"))
+# Output: 2
+# उपयोग: मोठ्या स्ट्रिंगमध्ये एखादी विशिष्ट सबस्ट्रिंग किती वेळा येते हे मोजण्यासाठी.
+-----------------------------------------
+# isalpha() - Returns True if all characters in the string are in the alphabet
+text_isalpha_true = "HelloWorld"
+print(text_isalpha_true.isalpha())
+# Output: True
+# उपयोग: स्ट्रिंगमध्ये फक्त अक्षरे आहेत की नाही हे तपासण्यासाठी.
+-----------------------------------------
+# endswith() - Returns true if the string ends with the specified value
+text_endswith_true = "hello.txt"
+print(text_endswith_true.endswith(".txt"))
+# Output: True
+# उपयोग: स्ट्रिंग विशिष्ट प्रत्ययाने (suffix) समाप्त होते की नाही हे तपासण्यासाठी, जसे की फाईल एक्सटेंशन.
+-----------------------------------------
+text_endswith_false = "hello.txt"
+print(text_endswith_false.endswith(".csv"))
+# Output: False
+# उपयोग: वेगवेगळ्या फाईल प्रकारांना हाताळण्यासाठी किंवा विशिष्ट स्ट्रिंग एंडिंग्ज तपासण्यासाठी.
+-----------------------------------------
+# find() - Searches the string for a specified value and returns the position of where it was found
+text_find_found = "hello world"
+print(text_find_found.find("world"))
+# Output: 6
+# उपयोग: मोठ्या स्ट्रिंगमध्ये सबस्ट्रिंगची सुरुवातीची इंडेक्स शोधण्यासाठी.
+-----------------------------------------
+# isalnum() - Returns True if all characters in the string are alphanumeric
+text_isalnum_true = "HelloWorld"
+print(text_isalnum_true.isalnum())
+# Output: True
+# उपयोग: जर स्ट्रिंगमध्ये फक्त अक्षरे आणि आकडे असतील तर True मिळवते.
+# या स्ट्रिंगमध्ये अक्षरे आणि आकडे यांच्याशिवाय इतर वर्ण (स्पेस आणि उद्गारवाचक चिन्ह) असल्यामुळे, isalnum() पद्धत False देते.
+#  स्ट्रिंगमध्ये फक्त अक्षरे आहेत आणि अक्षरे अल्फान्युमेरिक मानली जातात, म्हणून isalnum() पद्धत True देते. या स्ट्रिंगमध्ये स्पेस, विरामचिन्हे किंवा इतर कोणतेही विशेष वर्ण नाहीत.
+-----------------------------------------
+# isalpha() - Returns True if all characters in the string are in the alphabet
+text_isalpha_true = "HelloWorld222"
+print(text_isalpha_true.isalpha())
+# Output: True
+# उपयोग: जर स्ट्रिंगमध्ये फक्त अक्षरे असतील तर True मिळवते or 222 so false here.
+-----------------------------------------
+# isdigit() - Returns True if all characters in the string are digits
+text_isdigit_true = "12345"
+print(text_isdigit_true.isdigit())
+# Output: True
+# उपयोग: जर स्ट्रिंगमध्ये फक्त आकडे असतील तर True मिळवते./ abcc123= False
+-----------------------------------------
+# islower() - Returns True if all characters in the string are lower case
+text_islower_true = "hello world"
+print(text_islower_true.islower())
+# Output: True
+# उपयोग: जर स्ट्रिंगमधील सर्व अक्षरे लहान अक्षरात असतील तर True मिळवते.
+-----------------------------------------
+# isnumeric() - Returns True if all characters in the string are numeric
+text_isnumeric_true = "123४५" # Includes Devanagari digits
+print(text_isnumeric_true.isnumeric())
+# Output: True
+# उपयोग: जर स्ट्रिंगमधील सर्व वर्ण संख्यात्मक असतील तर True मिळवते (अंकांसारखे दिसणारे युनिकोड वर्ण देखील).
+-----------------------------------------
+
+
+
+
+
+
+
+
+vid11: Python Lists And List Related Functions | Python Tutorial For Beginners in Marathi #python #11
+-----------------------------------------
+list1 = ["Jay", "Vijay", 87, "abhs", "Ajay", 454]
+print(len(list1))
+print(list1[5])  ===============
+6
+454
+-----------------------------------------
+nums=[11,66,87,99,77]
+
+print(len(nums))
+print(min(nums))
+print(max(nums))=================
+5
+11
+99
+-----------------------------------------
+my_list = [3, 1, 4, 1, 5, 9, 2, 6]
+
+my_list.sort()
+print(my_list)
+# Output: [1, 1, 2, 3, 4, 5, 6, 9]
+# उपयोग: लिस्टच्या घटकांना लहान ते मोठ्या क्रमाने लावण्यासाठी.
+
+my_list.sort(reverse=True)
+print(my_list)
+# Output: [9, 6, 5, 4, 3, 2, 1, 1]
+# उपयोग: लिस्टच्या घटकांना मोठ्या ते लहान क्रमाने लावण्यासाठी.
+-----------------------------------------
+my_list.append(7)
+print(my_list)
+# Output (if the list was [3, 1, 4, 1, 5, 9, 2, 6]): [3, 1, 4, 1, 5, 9, 2, 6, 7]
+# उपयोग: लिस्टच्या शेवटी नवीन घटक जोडण्यासाठी.
+
+my_list.remove(1)
+print(my_list)
+# Output (if the list was [3, 1, 4, 1, 5, 9, 2, 6]): [3, 4, 1, 5, 9, 2, 6]
+# उपयोग: लिस्टमधून विशिष्ट घटक पहिल्यांदा आढळल्यावर तो काढण्यासाठी.
+-----------------------------------------
+my_list = [3, 1, 4, 1, 5, 9, 2, 6]
+my_list.insert(3, 7) # Insert 7 at index 3
+print(my_list)
+# Output: [3, 1, 4, 7, 1, 5, 9, 2, 6]
+# उपयोग: लिस्टमध्ये विशिष्ट स्थानावर नवीन घटक समाविष्ट करण्यासाठी.
+-----------------------------------------
+# 3. Swapping elements within the dataset (using simultaneous assignment):
+
+index1 = 1
+index2 = 7
+
+my_list[index1], my_list[index2] = my_list[index2], my_list[index1]
+
+print(my_list)
+# Output (if the list was the original): [3, 2, 4, 1, 5, 9, 1, 6]
+# उपयोग: लिस्टमधील दोन घटकांची जागा एकाच ओळीत बदलण्यासाठी.
+-----------------------------------------
+tuple== immutable
+list= mutable
+
+tup=(2,23,4,5,)
+tup.remove(23)
+it gives ERROR
+-----------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Python Dictionary & Its Functions Explained | Python Tutorial For Beginners in Marathi #python #12
+-----------------------------------------
+nums=[11,66,87,99,77]
+print(type(nums))
+
+nums=(11,66,87,99,77)
+print(type(nums))
+
+nums={11,66,87,99,77}
+print(type(nums))
+
+nums={"r":11,"j":66,"k":87}
+print(type(nums))                =================
+
+<class 'list'>
+<class 'tuple'>
+<class 'set'>                        #same like dict but only 1 value not 2 like k:v in dict    
+<class 'dict'>                  
+-----------------------------------------
+nums={"r":11,"j":66,"k":87}
+print((nums["j"]))=========                  # error "" not gave
+66
+# getting value from key
+-----------------------------------------
+# dictionary under dict
+l1={"jay":"pedha",
+"rakesh":{"2pm":"pedha", "5pm":"laadu", "8pm":"sonpapdi"}}
+print(11["rakesh"]["8pm"])========
+sonpapdi
+-----------------------------------------
+l1={"jay":"pedha"}
+l1["ajay"]="Chikki"                     # add k:v in dict ERROR no= sign need , [] block not curly, [] only for key not value
+### l1.update({"ram":"mithai"})     ==== add same like above both same
+print(l1)
+del l1["ajay"]                          # del = to remove dict k:v with k only
+print(l1)
+-----------------------------------------
+#copy dict & create 2 independant dict
+nums1={"r":11,"j":66,"k":87}
+nums2= nums1.copy()
+
+print(len(nums2))         # check length
+
+print(l1.keys())            # get keys onlyjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
+-----------------------------------------
+
+
