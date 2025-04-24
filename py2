@@ -1,6 +1,7 @@
 ## saransh = notes of below all data
 
-
+#### print saransh of 6 to 32  ======= print(    len (var1                                        [0:25:2]                 ))
+                                     len(round bracket)=no. of list/letter            square bracket= select word/ list item
 
 -print("            ")
 -print("ram is good \n bad")           =====
@@ -29,18 +30,19 @@ ahtaram duorp & ihtaram ma i
 i am marathi & proud maratha
 i am marathi & proud maratha
 am
-
--capitalized_var1 = var1.upper()
--var1.capitalize()  
+---------------------------------------
+-capitalized_var1 = var1.upper()             =full
+-var1.capitalize()                            = 1st letter 
 -lowercase_var1 = var1.casefold()            /      var1.lower()      
 -text_center.center(20)   
 -text_count.count("hello")
 
 -print(text_isalpha_true.isalpha())
+-print(text_isnumeric_true.isnumeric())           =123४५
+-print(text_isdigit_true.isdigit())               '= 12345
 -print(text_endswith_true.endswith(".txt"))
--print(text_isdigit_true.isdigit())
 -print(text_islower_true.islower())
--print(text_isnumeric_true.isnumeric())
+
 
 
 -# find() - Searches the string for a specified value and returns the position of where it was found
@@ -57,22 +59,14 @@ print(list1[5])  ===============
 454
 -----------------------------------------
 nums=[11,66,87,99,77]
-
 print(len(nums))
 print(min(nums))
 print(max(nums))=================
-5
-11
-99
------------
+
 -my_list.sort()
-print(my_list)
-# Output: [1, 1, 2, 3, 4, 5, 6, 9]
 # उपयोग: लिस्टच्या घटकांना लहान ते मोठ्या क्रमाने लावण्यासाठी.
 
 my_list.sort(reverse=True)
-print(my_list)
-# Output: [9, 6, 5, 4, 3, 2, 1, 1]
 # उपयोग: लिस्टच्या घटकांना मोठ्या ते लहान क्रमाने लावण्यासाठी.
 -----------
 my_list.append(7)
