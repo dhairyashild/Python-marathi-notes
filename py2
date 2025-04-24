@@ -1,3 +1,102 @@
+## saransh = notes of below all data
+
+
+
+-print("            ")
+-print("ram is good \n bad")           =====
+-Code: print("पहिला भाग \r दुसरा भाग")
+Output: दुसरा भाग
+
+-vid10 : String Slicing And Other Functions In Python | Python Tutorial For Beginners in Marathi #python #10
+-[0:28]   = [:]    =[:28]         All 3 are same
+- [[start letter used:   stop letter excluded   :    step]]
+var1="i am marathi & proud maratha"       
+print(var1)
+print(var1[0])       =i
+print(len(var1))     =28                            # error=   length   [ ]              --len has round bracket
+print(var1[0:28])                                   # indexing word must have [[start:stop:step]] square bracket # indexing -1 / -2 works only with whole data means [::-2]
+print(var1[::-1])    =ahtaram duorp & ihtaram ma i
+print(var1[:])
+print(var1[:28])
+print(var1[2:4:1])   =am
+print(var1[0:4:-1])        ====================
+
+i am marathi & proud maratha
+i
+28
+i am marathi & proud maratha
+ahtaram duorp & ihtaram ma i
+i am marathi & proud maratha
+i am marathi & proud maratha
+am
+
+-capitalized_var1 = var1.upper()
+-var1.capitalize()  
+-lowercase_var1 = var1.casefold()            /      var1.lower()      
+-text_center.center(20)   
+-text_count.count("hello")
+
+-print(text_isalpha_true.isalpha())
+-print(text_endswith_true.endswith(".txt"))
+-print(text_isdigit_true.isdigit())
+-print(text_islower_true.islower())
+-print(text_isnumeric_true.isnumeric())
+
+
+-# find() - Searches the string for a specified value and returns the position of where it was found
+text_find_found = "hello world"
+print(text_find_found.find("world"))
+# Output: 6
+
+
+
+-list1 = ["Jay", "Vijay", 87, "abhs", "Ajay", 454]
+print(len(list1))
+print(list1[5])  ===============
+6
+454
+-----------------------------------------
+nums=[11,66,87,99,77]
+
+print(len(nums))
+print(min(nums))
+print(max(nums))=================
+5
+11
+99
+-----------
+-my_list.sort()
+print(my_list)
+# Output: [1, 1, 2, 3, 4, 5, 6, 9]
+# उपयोग: लिस्टच्या घटकांना लहान ते मोठ्या क्रमाने लावण्यासाठी.
+
+my_list.sort(reverse=True)
+print(my_list)
+# Output: [9, 6, 5, 4, 3, 2, 1, 1]
+# उपयोग: लिस्टच्या घटकांना मोठ्या ते लहान क्रमाने लावण्यासाठी.
+-----------
+my_list.append(7)
+# उपयोग: लिस्टच्या शेवटी नवीन घटक जोडण्यासाठी.
+
+my_list.remove(1)
+# उपयोग: लिस्टमधून विशिष्ट घटक पहिल्यांदा आढळल्यावर तो काढण्यासाठी.
+-----------------------------------------
+my_list = [3, 1, 4, 1, 5, 9, 2, 6]
+my_list.insert(3, 7) # Insert 7 at index 3
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
 04.Installation of Modules Using pip | Python Tutorial For Beginners in Marathi #python
 
 Python Module: कोडचा समूह जो विशिष्ट कार्ये करण्यासाठी एकत्र ठेवला जातो.
