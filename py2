@@ -77,6 +77,22 @@ my_list.remove(1)
 -----------------------------------------
 my_list = [3, 1, 4, 1, 5, 9, 2, 6]
 my_list.insert(3, 7) # Insert 7 at index 3
+----------------------------------
+
+
+
+
+DICTIONARY
+
+nums=[11,66,87,99,77]                =class 'list' ]
+nums=(11,66,87,99,77)                =class 'tuple' )
+nums={11,66,87,99,77}                =class 'set'  }                      #same like dict but only 1 value not 2 like k:v in dict    
+nums={"r":11,"j":66,"k":87}          =class 'dict'  k:v} 
+
+print((nums["j"]))          = get value from key j
+nums2= nums1.copy()         = copy 
+print(len(nums2))            = item no.
+print(l1.keys())          =get keys only
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -418,7 +434,7 @@ print((nums["j"]))=========                  # error "" not gave
 # dictionary under dict
 l1={"jay":"pedha",
 "rakesh":{"2pm":"pedha", "5pm":"laadu", "8pm":"sonpapdi"}}
-print(11["rakesh"]["8pm"])========
+print(l1["rakesh"]["8pm"])========
 sonpapdi
 -----------------------------------------
 l1={"jay":"pedha"}
@@ -436,5 +452,3 @@ print(len(nums2))         # check length
 
 print(l1.keys())            # get keys onlyjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
 -----------------------------------------
-
-
