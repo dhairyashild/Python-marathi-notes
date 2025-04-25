@@ -1,0 +1,79 @@
+link --For Loops in Python | Python Tutorial For Beginners in Marathi #python #16   +  SAGAR      + GPT
+--------------------------------------------------------------------------------------
+
+
+
+#################################### FOR LOOP BEST SARANSH -NOTES REMEMBER CODE1 &2 SYNTAX ONLY ###################################
+
+####CODE 1
+for VAR in SEQUENCE-of-LIST/TUPLE/DICT/range:
+    # after इंडेंटेशन Code to be executed for each element
+    # after इंडेंटेशन --code write after left side space only part of this loop , if u write start of line its out of loop
+
+####CODE 2
+for i in range(start-include, stop-exclude, step):
+        condition code with left side space
+
+Variable (चल): हे नाव प्रत्येक लूपच्याIteration मध्ये iterable मधील सध्याची वस्तू धरते.
+Indentation (इंडेंटेशन): लूपच्या आत असलेला कोड लूपचा भाग मानला जाण्यासाठी इंडेंट केलेला असणे आवश्यक आहे.
+sequence (पुनरावृत्ती): लूप iterable मध्ये असलेल्या प्रत्येक वस्तूसाठी एकदा चालतो.
+##  We use for loop to apply SEQUENCE-WISE CONDITION REPEATEDLY--
+1  list
+2  tuple
+3  dict
+4  range
+###############################################################################################################################
+
+
+list1=["jay", "ajay", "vijay", "raj"]
+for item in list1:
+print(item)                 =============== no need \n to print next line
+jay
+ajay
+vijay
+raj
+
+for i in range(0,20,1):
+print(i)                ==================  if u get values of start 0 and stop 20 
+
+1
+2
+3
+....
+19
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
