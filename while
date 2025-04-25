@@ -1,0 +1,22 @@
+
+
+#  gpt
+while condition:
+    # Code to be executed as long as the condition is true
+    # make condition False at last otherwise infinite loop
+
+महत्वाचे मुद्दे :
+Condition (अट): while लूपमधील कोड अट True (खरी) असेपर्यंत वारंवार चालतो.
+Condition Update : लूप थांबवण्यासाठी, अट शेवटी False (खोटी) झाली पाहिजे. यासाठी लूपच्या आत अट बदलणाऱ्या कोडचा समावेश करणे महत्त्वाचे आहे.
+Infinite Loop (अनंत लूप): जर अट कधीही False झाली नाही, तर लूप सतत चालू राहील (अनंत लूप). हे टाळणे आवश्यक आहे.
+
+
+# sagar vid --- Loops In Python | Python for Beginners | #pythonprogramming
+
+
+
+var1= input("Enter your name = ")
+x = 0                                           # this line used only1 time not repeated in while loop. below code repeated only
+while x <= 10:                                   # while condition given in number only i think, for loop - list/tuple/range 
+    print(var1)                  
+    x = x + 1                                   # condition to end loop
