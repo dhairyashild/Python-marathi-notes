@@ -3,10 +3,19 @@
 #### print saransh of 6 to 32  ======= print(    len (var1                                        [0:25:2]                 ))
                                      len(round bracket)=no. of list/letter            square bracket= select word/ list item
 
--print("            ")
--print("ram is good \n bad")           =====
+-print("            ")                                                   input("            ")    same syntax for both
+-print("ram is good \n bad")           ===== 
 -Code: print("पहिला भाग \r दुसरा भाग")
 Output: दुसरा भाग
+
+video 13 below 2 points
+-CONCAT ===  
+a=input("name\n")                                              ERROR=        "     " forget
+b=input("surname\n")
+Print(a + "  " + b)                    -----middle "  " is space between a and b 
+
+print("Your Personalize Bill is"+(a+c)/b)      ---------error as "str" + integer cant happen so
+print("Your Personalize Bill is"+str((a+c)/b)) ----------convert integr into string by add str((a+c)/b) even then math work there remember
 
 -vid10 : String Slicing And Other Functions In Python | Python Tutorial For Beginners in Marathi #python #10
 -[0:28]   = [:]    =[:28]         All 3 are same
