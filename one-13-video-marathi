@@ -17,6 +17,8 @@ Print(a + "  " + b)                    -----middle "  " is space between a and b
 print("Your Personalize Bill is"+(a+c)/b)      ---------error as "str" + integer cant happen so
 print("Your Personalize Bill is"+str((a+c)/b)) ----------convert integr into string by add str((a+c)/b) even then math work there remember
 
+
+#### SLICING
 -vid10 : String Slicing And Other Functions In Python | Python Tutorial For Beginners in Marathi #python #10
 -[0:28]   = [:]    =[:28]         All 3 are same
 - [[start letter used:   stop letter excluded   :    step]]
