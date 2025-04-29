@@ -1,0 +1,83 @@
+
+
+# ARITHMETIC
+
+102 + 37: बेरीज (102 आणि 37 यांची बेरीज करते.)
+102 * 37: गुणाकार (102 आणि 37 यांचा गुणाकार करते.)
+4 / 6: ** भागाकार** (4 ला 6 ने भागते.)
+22 / 7: ** भागाकार** (22 ला 7 ने भागते.)
+22 // 7: पूर्णांक भागाकार (22 ला 7 ने भागल्यावर येणारा फक्त पूर्णांक भाग देते, बाकीचा भाग सोडते.)
+3 ^ 4: घात (3 चा चौथा घात काढते.)
+22 % 7: शिल्लक (22 ला 7 ने भागल्यावर येणारी बाकीची संख्या देते.)
+
+
+# COMPARISON OPERATOR 
+
+==: दोन मूल्ये समान आहेत का हे तपासते. (Checks if two values are equal.)
+!=: दोन मूल्ये असमान आहेत का हे तपासते. (Checks if two values are not equal.)
+>: पहिले मूल्य दुसऱ्या मूल्यापेक्षा मोठे आहे का हे तपासते. (Checks if the first value is greater than the second.)
+<: पहिले मूल्य दुसऱ्या मूल्यापेक्षा लहान आहे का हे तपासते. (Checks if the first value is less than the second.)
+>=: पहिले मूल्य दुसऱ्या मूल्यापेक्षा मोठे किंवा समान आहे का हे तपासते. (Checks if the first value is greater than or equal to the second.)
+<=: पहिले मूल्य दुसऱ्या मूल्यापेक्षा लहान किंवा समान आहे का हे तपासते. (Checks if the first value is less than or equal to the second.)
+
+
+# LOGICAL 
+
+and: सर्व अटी सत्य असल्यास 'सत्य' देते. (Returns 'True' if all conditions are true.)
+or: कोणतीही एक अट सत्य असल्यास 'सत्य' देते. (Returns 'True' if at least one condition is true.)
+not: दिलेल्या अटचे सत्य मूल्य बदलते. (Reverses the truth value of the given condition.)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
