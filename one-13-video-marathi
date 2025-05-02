@@ -80,10 +80,10 @@ print(max(nums))=================
 my_list.sort(reverse=True)
 # उपयोग: लिस्टच्या घटकांना मोठ्या ते लहान क्रमाने लावण्यासाठी.
 -----------
-my_list.append(7)
+my_list.append(7)                                                my-set.add(7)  --------add for set value addition
 # उपयोग: लिस्टच्या शेवटी नवीन घटक जोडण्यासाठी.
 
-my_list.remove(1)
+my_list.remove(1)                                               my_set.remove(1)------- same for set value delete
 # उपयोग: लिस्टमधून विशिष्ट घटक पहिल्यांदा आढळल्यावर तो काढण्यासाठी.
 -----------------------------------------
 my_list = [3, 1, 4, 1, 5, 9, 2, 6]
