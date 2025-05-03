@@ -1,0 +1,111 @@
+21
+#Try Except Exception Handling in Python  -----gpt code
+
+try:
+    print(int("abc") + int("456"))  # चूक  
+except Exception as e:
+    print(e)  
+--------------------------------------------------------------------------------------------------
+
+Practice Set 03 Program To Swap Numbers | Python Tutorial For Beginners in Marathi #python #23
+
+num1=19
+num2=15
+
+var1=num1
+num1=num2
+var2=nmu2
+------------------------------------------------------------------------------------------
+
+# FILE HANDLING BASICS
+
+# Open file for reading ('r')
+f = open("test.txt", "r")                              # must exist
+
+# Open file for writing ('w') - creates/overwrites
+f = open("test.txt", "w")                              # careful! deletes old content
+
+# Open file for appending ('a')
+f = open("test.txt", "a")                              # adds to end, keeps old content
+
+# Read entire file
+data = f.read()                                          # returns string with all text
+
+# Read one line
+line = f.readline()                                     # returns next line as string
+
+# Read all lines into list
+lines = f.readlines()                                   # returns list of strings
+
+# Write string to file
+f.write("text")                                            # writes exactly what you give it
+
+# Write multiple lines
+f.writelines(["line1\n", "line2\n"])                     # list of strings
+
+# Close file when done
+f.close()                                              # important for writing
+
+# Better: use 'with' (auto-closes)
+with open("test.txt", "r") as f:  # no close needed
+    data = f.read()                                    # read inside the block
+
+
+# फाईलमध्ये लिहिण्यासाठी उघडा (नवीन फाईल तयार होईल किंवा जुनी ओवरराईट होईल)
+with open("नवीन_फाईल.txt", "w") as f:
+    f.write("ही फाईलमध्ये लिहिलेली पहिली ओळ आहे.\n")
+    f.write("आणि ही दुसरी ओळ आहे.\n")
+
+# फाईलमध्ये जोडण्यासाठी उघडा
+with open("नवीन_फाईल.txt", "a") as f:
+    f.write("आता ही ओळ फाईलच्या शेवटी जोडली जाईल.\n")
+
+
+f=open("delete.txt",'r')                    # delete.txt   ---- made 1234567890
+print(f.read(6))             =======123456   
+print(f.tell())              ======= 6       # tell shows where is file pointer
+print(f.read(2))             =======78           ### pointer pudhe jat rahato
+print(f.tell())              ======= 8
+print(f.seek(1)              ======= 1        # seek put back pointer where we need
+print(f.tell())              =======1
+f.close()
+
+-------------------------------------------------------------
+Q===read readline readline usecases in code
+
+f.read(): संपूर्ण फाईल एका स्ट्रिंगमध्ये वाचते. लहान फाईल्ससाठी उपयुक्त.
+f.readline(): फाईलची एक ओळ वाचते. मोठी फाईल ओळी ओळीने वाचण्यासाठी किंवा विशिष्ट फॉरमॅटमधील डेटा वाचण्यासाठी उपयुक्त.
+f.readlines(): फाईलच्या सर्व ओळींची लिस्ट तयार करते. लहान फाईल्ससाठी ओळींवर प्रक्रिया करणे सोपे करते.
+
+delet.txt----------made
+1234567890
+hhhhhh
+jjjjjj
+
+f=open("delete.txt",'r')
+
+print(f.readline())=================1234567890
+
+print(f.readline())=================hhhhhh
+
+print(f.tell())=====================20
+f.seek(0)
+
+print(f.readlines())================['1234567890\n', 'hhhhhh\n', 'jjjjjj']
+
+f.close()
+--------------------------------------------------------------------
+write & writelines diff=========
+-- both need \n for new line  
+--but write give 1 line at time but writeline give multile line in 1 list with "  \n"
+
+1. write(string):   ही पद्धत फाईलमध्ये दिलेली स्ट्रिंग जशीच्या तशी लिहिते.
+with open("example_write.txt", "w") as f:
+    f.write("ही पहिली ओळ आहे.\n")
+    f.write("आणि ही दुसरी ओळ आहे.\n")
+
+
+2. writelines(list_of_strings):       लिस्टमधील प्रत्येक स्ट्रिंग फाईलमध्ये क्रमाने लिहिली जाते.    
+oli = ["पहिली ओळ\n", "दुसरी ओळ\n", "तिसरी ओळ.\n"]
+with open("example_writelines.txt", "w") as f:
+    f.writelines(oli)
