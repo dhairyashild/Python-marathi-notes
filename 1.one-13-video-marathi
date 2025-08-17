@@ -1,4 +1,17 @@
-## saransh = notes of below all data
+                                                           ## SARANSH
+
+
+variable kas dyaycha nahi , below all wrong===== 
+#### not give number before variable
+12var=5
+
+####number + string not happen
+var1="5"
+var2=7
+print(var1+var2)              =========ERROR BECAUSE var1 is string so code correct for this=print(int(var1)+var2)  
+
+
+
 
 #### print saransh of 6 to 32  ======= print(    len (var1                                        [0:25:2]                 ))
                                      len(round bracket)=no. of list/letter            square bracket= select word/ list item
